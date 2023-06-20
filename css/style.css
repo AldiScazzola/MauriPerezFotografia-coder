@@ -9,7 +9,7 @@
 
 /*ETIQUETAS*/
 header {
-    background-color: navajowhite;
+    background-color: white;
 }
 
 a {
@@ -128,7 +128,7 @@ p {
 }
 
 .footers {
-    background-color: navajowhite
+    background-color: white
 }
 
 .pfoot {
@@ -257,7 +257,12 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-
+.parrafos{
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 #primerh3 {
     padding-top: 60px;
 }
@@ -330,6 +335,9 @@ p {
             height: 200px;
             object-fit: contain;
         }
+    }
+    header {
+        background-color: white;
     }
 
     .navbar {
@@ -459,7 +467,9 @@ p {
         width: 100%;
         overflow-x: auto;
     }
-
+    header {
+        background-color: white;
+    }
     .galery-img {
         width: 300px;
         height: 200px;
@@ -468,11 +478,11 @@ p {
 
     .Porfolio {
         display: flex;
-
         justify-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #8A2BE2;
         font-size: 10px;
+        padding-left: 130px;
 
     }
 
@@ -530,9 +540,7 @@ p {
 
     }
 
-    .fondo {
-        background-color: rgb(35, 139, 139);
-    }
+    
 
     /* RESPONSIVE CONTACTO*/
     #parrafos {
