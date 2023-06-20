@@ -205,8 +205,9 @@ p {
     display: flex;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 15px;
+    font-style: oblique;
+    color: gray;
+    font-size: 25px;
     padding-left: 800px;
 
 }
@@ -384,6 +385,7 @@ p {
         text-align: center;
         color: black;
     }
+
     .inicio {
         display: inline;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -405,7 +407,7 @@ p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
+
     }
 
     .logo {
@@ -454,7 +456,8 @@ p {
         display: inline;
         justify-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #8A2BE2;
+        font-style: oblique;
+        color: gray;
         font-size: 20px;
         padding-left: 250px;
 
@@ -518,12 +521,11 @@ p {
     }
 
     .Porfolio {
-        display: flex;
-        justify-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #8A2BE2;
-        font-size: 10px;
+        color: gray;
+        font-size: 15px;
         padding-left: 130px;
+        font-style: oblique;
 
     }
 
@@ -550,7 +552,8 @@ p {
     #logoinsta {
         width: 20px;
         height: 21px;
-
+        margin-bottom: 12px;
+        padding-left: 18px
     }
 
     .redesfooter {
@@ -605,6 +608,7 @@ p {
         height: 100%;
 
     }
+
     .ul {
         display: flex;
         flex-direction: row;
@@ -613,5 +617,5 @@ p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
+
     }
