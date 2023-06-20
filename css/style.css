@@ -586,7 +586,12 @@ p {
 
     /* RESPONSIVE CONTACTO*/
     #parrafos {
-        font-size: 15px;
+        font-size: 10px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-style: oblique;
+        padding-bottom: 24px;
     }
 
     .contactoimg {
