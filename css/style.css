@@ -206,7 +206,7 @@ p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 800px;
 
 }
@@ -219,7 +219,7 @@ p {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -384,6 +384,13 @@ p {
         text-align: center;
         color: black;
     }
+    .inicio {
+        display: inline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 10px;
+        text-decoration: none;
+    }
 
     a {
         width: 100px;
@@ -392,11 +399,13 @@ p {
 
     .ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         list-style: none;
-        padding-left: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
+        
     }
 
     .logo {
@@ -590,4 +599,14 @@ p {
         width: 100%;
         height: 100%;
 
+    }
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
     }
