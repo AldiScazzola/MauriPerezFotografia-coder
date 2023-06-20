@@ -57,11 +57,13 @@ p {
 /*CLASES*/
 
 .logo {
+    display: flex;
+    justify-content: center;
     width: 300px;
     height: 300px;
     padding-top: 20px;
     padding-bottom: 20vh;
-    
+
 }
 
 .navbar {
@@ -88,6 +90,15 @@ p {
     margin: 30px;
     text-align: center;
     color: black;
+    border-radius: 1%;
+}
+
+.contactoimg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
 }
 
 .imginicio {
@@ -176,14 +187,16 @@ p {
 
 .formu {
     color: black
-    
 }
 
 .Porfolio {
+    display: flex;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blueviolet;
     font-size: 20px;
-    padding-left: 800px
+    padding-left: 800px;
+
 }
 
 .fondo {
@@ -207,7 +220,7 @@ p {
     border: 1px;
     top: 40px;
     left: 40px;
-    
+
 }
 
 #logows {
@@ -218,7 +231,7 @@ p {
     border: 1px;
     top: 70px;
     left: 70px;
-    
+
 
 }
 
@@ -261,23 +274,25 @@ p {
     padding-top: 40px;
 
 }
+
 /* GRID*/
-.grid-conteiner{ 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        width: 100%;
-        overflow-x: auto;
-        background-color: #F5F5DC;
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    overflow-x: auto;
+    background-color: #F5F5DC;
 }
 
-.galery-img{
+.galery-img {
     width: 500px;
     height: 300px;
     object-fit: contain;
 }
+
 .titlegaleria {
     position: absolute;
     bottom: 0;
@@ -287,236 +302,251 @@ p {
     margin: 0;
 
 }
-.galery-item{
+
+.galery-item {
     position: relative;
 }
-.redesfooter{
+
+.redesfooter {
     display: flex;
     display: inline;
-    align-items:center ;
+    align-items: center;
 
 }
 
 /* RESPONSIVE PRECIO*/
 
 @media screen and (max-width:600px) {
-    .grid-conteiner{ 
-        
+    .grid-conteiner {
+
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
-       
+
         width: 100%;
         overflow-x: auto;
-       
-        .galery-img{
+
+        .galery-img {
             width: 300px;
             height: 200px;
             object-fit: contain;
-        }  
-}
-.navbar {
-    text-align: center;
-    padding-left: 5px;
-    display:block;   
-    padding-top: 10px; 
-    padding-bottom: 10px;     
-     font-size: 10px;
-     text-align: center;
-     font-family: Spinnaker, Arial, Helvetica, sans-serif;
-     color: rgba(0, 0, 0, 1);
-     font-weight: normal;
-     font-style: normal;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-variant: normal;
-     overflow: hidden;
-      
- 
- 
- }
- .enlace {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 5px;
-    text-align: center;
-    color: black;
-}
-a {
-    width: 100px;
-    height: 100px;
-}
-.ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding-left: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
-.logo {
-    width: 300px;
-    height: 300px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    align-items: center;    
-}
+        }
+    }
 
- .fondo {
-    background-color: gray;
-}
+    .navbar {
+        text-align: center;
+        padding-left: 5px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 5px;
+        text-align: center;
+        font-family: Spinnaker, Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 1);
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-variant: normal;
+        overflow: hidden;
 
-.pfoot {
-    font-size: 10px;
-    text-align: center;
-   
-    
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-h4 {
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-#footer {
-    font-size: 10px;
-    text-align: center;
-}
-.Porfolio {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #8A2BE2;
-    font-size: 20px;
-    padding-left:250px
-}
+    }
 
-h3 {
-    text-align: center;
-    color: black;
-    padding-left: 200px
-    padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    text-align: center;
+    .enlace {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 5px;
+        text-align: center;
+        color: black;
+    }
 
-}
-h2{
-    font-size: 15px;
-    text-align: center;
-}
-.redesfooter{
-    display: flex;
-    display: inline;
-    align-items:center ;
+    a {
+        width: 100px;
+        height: 100px;
+    }
 
-}
-.contactoimg{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    .ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
 
-}
+    .logo {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .fondo {
+        background-color: gray;
+    }
+
+    .pfoot {
+        font-size: 10px;
+        text-align: center;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h4 {
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #footer {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Porfolio {
+        display: flex;
+        display: inline;
+        justify-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #8A2BE2;
+        font-size: 20px;
+        padding-left: 250px;
+
+    }
+
+    h3 {
+        text-align: center;
+        color: black;
+        padding-left: 200px padding-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .redesfooter {
+        display: flex;
+        display: inline;
+        align-items: center;
+
+    }
+
+    .contactoimg {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+    }
 }
 
 @media screen and (max-width:320px) {
-    .grid-conteiner{ 
-        
+    .grid-conteiner {
+
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(8, 1fr);
         width: 100%;
         overflow-x: auto;
-}
-.galery-img{
-    width: 300px;
-    height: 200px;
-    object-fit: contain;
-}
-.Porfolio {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #8A2BE2;
-    font-size: 10px;
-    padding-left:140px
-}
-h3 {
-    text-align: center;
-    color: black;
-    padding-left: 200px
-    padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5px;
-    text-align: center;
+    }
 
-}
-h2{
-    font-size: 15px;
-    text-align: center;
-}
-#logows{
-    width: 20px;
-    height: 24px;
-}
-#logoinsta{
-    width: 20px;
-    height: 21px;
-   
-}
-.redesfooter{
-    display: flex;
-    display: inline;
-    align-items:center ;
+    .galery-img {
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+    }
 
-}
-.navbar {
-    text-align: center;
-    padding-left: 5px;
-    display:block;   
-    padding-top: 6px; 
-    padding-bottom: 10px;     
-     font-size: 10px;
-     text-align: center;
-     font-family: Spinnaker, Arial, Helvetica, sans-serif;
-     color: rgba(0, 0, 0, 1);
-     font-weight: normal;
-     font-style: normal;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-variant: normal;
-     overflow: hidden;
-      
- 
- 
- }
+    .Porfolio {
+        display: flex;
 
- .fondo {
-background-color: rgb(35, 139, 139);
- }
-    
-/* RESPONSIVE CONTACTO*/
-#parrafos{
-    font-size: 15px;
-}
-.contactoimg{
-    width: 100%;
-}
-.contactoimg{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+        justify-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #8A2BE2;
+        font-size: 10px;
 
-}
-.Porfolio {
-    isplay: flex;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #8A2BE2;
-    font-size: 20px;
-   
-}
-    
-   
+    }
+
+    h3 {
+        text-align: center;
+        color: black;
+        padding-left: 200px padding-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5px;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #logows {
+        width: 20px;
+        height: 24px;
+    }
+
+    #logoinsta {
+        width: 20px;
+        height: 21px;
+
+    }
+
+    .redesfooter {
+        display: flex;
+        display: inline;
+        align-items: center;
+
+    }
+
+    .navbar {
+        text-align: center;
+        padding-left: 5px;
+        display: block;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        text-align: center;
+        font-family: Spinnaker, Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 1);
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-variant: normal;
+        overflow: hidden;
+
+
+
+    }
+
+    .fondo {
+        background-color: rgb(35, 139, 139);
+    }
+
+    /* RESPONSIVE CONTACTO*/
+    #parrafos {
+        font-size: 15px;
+    }
+
+    .contactoimg {
+        width: 100%;
+    }
+
+    .contactoimg {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+    }
