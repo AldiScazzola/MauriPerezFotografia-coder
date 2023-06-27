@@ -380,7 +380,7 @@ p {
     .ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         list-style: none;
         padding-left: 15px;
         padding-right: 15px;
@@ -572,10 +572,16 @@ p {
 
     .ul {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         list-style: none;
         padding-left: 15px;
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    .imglogo {
+        display: flex;
+        align-items: center;
+        justify-content: center 
+    }
+       
