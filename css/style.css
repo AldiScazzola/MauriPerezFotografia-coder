@@ -5,8 +5,6 @@
 
 }
 
-
-
 /*ETIQUETAS*/
 header {
     background-color: white;
@@ -16,7 +14,6 @@ a {
     width: 100px;
     height: 100px;
 }
-
 
 h1 {
     padding-top: 70px;
@@ -29,9 +26,7 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
-
 }
-
 
 h4 {
     text-align: center;
@@ -41,7 +36,7 @@ h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-H5 {
+h5 {
     padding-left: 1000px;
     color: white;
     text-decoration: underline;
@@ -51,19 +46,17 @@ H5 {
 p {
     color: black;
     font-size: 15px;
-
 }
 
 /*CLASES*/
-
 .logo {
     display: flex;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 259px;
+    height: 242px;
     padding-top: 20px;
-    padding-bottom: 20vh;
-
+    padding-bottom: 10px;
+    
 }
 
 .imglogo {
@@ -73,9 +66,6 @@ p {
 
 .navbar {
     display: inline;
-    padding-left: 120px;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
     text-align: center;
     font-family: Spinnaker, Arial, Helvetica, sans-serif;
     color: rgba(0, 0, 0, 1);
@@ -84,8 +74,6 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-variant: normal;
-
-
 }
 
 .enlace {
@@ -103,7 +91,6 @@ p {
     justify-content: center;
     width: 100%;
     height: 100%;
-
 }
 
 .imginicio {
@@ -111,7 +98,6 @@ p {
     height: 400px;
     image-resolution: 1920px;
 }
-
 
 .imgprod {
     width: 400px;
@@ -142,7 +128,6 @@ p {
     margin-bottom: 30px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .text-conteiner {
@@ -167,12 +152,21 @@ p {
 .li {
     padding-bottom: 30px;
     font-size: 20px;
-
 }
 
 .ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.ul1{
+    display: flex;
+   display: block;
+    align-items: center;
     list-style: none;
     padding-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -187,7 +181,6 @@ p {
 }
 
 .titulocontacto {
-
     color: white;
 }
 
@@ -209,7 +202,6 @@ p {
     color: gray;
     font-size: 25px;
     padding-left: 800px;
-
 }
 
 .fondo {
@@ -224,7 +216,6 @@ p {
     text-decoration: none;
 }
 
-
 /****ID****/
 #logoinsta {
     width: 40px;
@@ -234,7 +225,6 @@ p {
     border: 1px;
     top: 40px;
     left: 40px;
-
 }
 
 #logows {
@@ -245,24 +235,19 @@ p {
     border: 1px;
     top: 70px;
     left: 70px;
-
-
 }
 
 #quinces {
     font-size: 10px;
-
     color: blueviolet;
 }
 
 #sesiones {
     font-size: 10px;
-
 }
 
 #Bodas {
     font-size: 10px;
-
 }
 
 #parrafos {
@@ -283,7 +268,6 @@ p {
     padding-top: 60px;
 }
 
-
 #footer {
     font-size: 20px;
     text-align: center;
@@ -293,7 +277,6 @@ p {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
-
 }
 
 /* GRID*/
@@ -321,7 +304,6 @@ p {
     background: #333;
     width: 100%;
     margin: 0;
-
 }
 
 .galery-item {
@@ -332,7 +314,6 @@ p {
     display: flex;
     display: inline;
     align-items: center;
-
 }
 
 /* RESPONSIVE PRECIO*/
@@ -372,9 +353,6 @@ p {
         text-transform: uppercase;
         font-variant: normal;
         overflow: hidden;
-
-
-
     }
 
     .enlace {
@@ -407,7 +385,6 @@ p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     }
 
     .logo {
@@ -442,7 +419,6 @@ p {
         width: 640px;
         height: 258px;
         object-fit: contain;
-
     }
 
 
@@ -460,7 +436,6 @@ p {
         color: gray;
         font-size: 20px;
         padding-left: 250px;
-
     }
 
     h3 {
@@ -470,7 +445,6 @@ p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 10px;
         text-align: center;
-
     }
 
     h2 {
@@ -482,7 +456,6 @@ p {
         display: flex;
         display: inline;
         align-items: center;
-
     }
 
     .contactoimg {
@@ -490,7 +463,6 @@ p {
         justify-content: center;
         width: 100%;
         height: 100%;
-
     }
 }
 
@@ -517,7 +489,6 @@ p {
         width: 300px;
         height: 160px;
         object-fit: contain;
-
     }
 
     .Porfolio {
@@ -526,7 +497,6 @@ p {
         font-size: 15px;
         padding-left: 130px;
         font-style: oblique;
-
     }
 
     h3 {
@@ -536,7 +506,6 @@ p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 5px;
         text-align: center;
-
     }
 
     h2 {
@@ -560,7 +529,6 @@ p {
         display: flex;
         display: inline;
         align-items: center;
-
     }
 
     .navbar {
@@ -579,13 +547,7 @@ p {
         text-transform: uppercase;
         font-variant: normal;
         overflow: hidden;
-
-
-
     }
-
-
-
 
     /* RESPONSIVE CONTACTO*/
     #parrafos {
@@ -606,7 +568,6 @@ p {
         justify-content: center;
         width: 100%;
         height: 100%;
-
     }
 
     .ul {
@@ -617,5 +578,4 @@ p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     }
