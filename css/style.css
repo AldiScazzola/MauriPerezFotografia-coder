@@ -11,13 +11,16 @@ header {
 }
 
 a {
+   
     width: 100px;
     height: 100px;
+    
 }
 
 h1 {
     padding-top: 70px;
 }
+
 
 h3 {
     color: black;
@@ -194,15 +197,7 @@ p {
     color: black
 }
 
-.Porfolio {
-    display: flex;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: oblique;
-    color: gray;
-    font-size: 25px;
-    padding-left: 800px;
-}
+
 
 .fondo {
     background-color: white;
@@ -214,6 +209,19 @@ p {
     color: black;
     font-size: 15px;
     text-decoration: none;
+}
+.parrafos {
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.afooter {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
 }
 
 /****ID****/
@@ -257,12 +265,7 @@ p {
     text-align: center;
 }
 
-.parrafos {
-    font-size: 15px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
+
 
 #primerh3 {
     padding-top: 60px;
@@ -277,6 +280,17 @@ p {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+#h3footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  
+}
+.porfolioconteiner {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
 }
 
 /* GRID*/
@@ -373,8 +387,18 @@ p {
     }
 
     a {
+       
         width: 100px;
-        height: 100px;
+        height: 40px;
+       
+        
+    }
+    .afooter {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
     }
 
     .ul {
@@ -422,20 +446,17 @@ p {
     }
 
 
-    #footer {
+    #h3footer {
+        display: flex;
+        justify-content: center;
         font-size: 10px;
-        text-align: center;
+      
     }
 
-    .Porfolio {
+    
+    .porfolioconteiner {
         display: flex;
-        display: inline;
-        justify-items: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: oblique;
-        color: gray;
-        font-size: 20px;
-        padding-left: 250px;
+        justify-content: space-around;
     }
 
     h3 {
@@ -491,12 +512,28 @@ p {
         object-fit: contain;
     }
 
-    .Porfolio {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: gray;
+    #h3footer {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+      
+    }
+    .porfolioconteiner {
+        display: flex;
+        justify-content: space-around;
+    }
+    a {
+        
+        width: 100px;
+        height: 40px;
+        
+    }
+    .afooter {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 40px;
         font-size: 15px;
-        padding-left: 130px;
-        font-style: oblique;
     }
 
     h3 {
