@@ -1,0 +1,27 @@
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    overflow-x: auto;
+    background-color: #F5F5DC;
+    .galery-item {
+        position: relative;
+        .titlegaleria {
+            position: absolute;
+            bottom: 0;
+            color: white;
+            background: #333;
+            width: 100%;
+            margin: 0;
+        }
+        .galery-img {
+            width: 500px;
+            height: 300px;
+            object-fit: contain;
+        }
+    }
+}
+   

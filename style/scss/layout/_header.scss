@@ -1,0 +1,16 @@
+.fondo {
+    background-color: white;
+}
+.imglogo {
+    display: flex;
+    align-items: center;
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 259px;
+        height: 242px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    
+    }
+}

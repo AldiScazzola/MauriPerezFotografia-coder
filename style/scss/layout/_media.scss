@@ -1,248 +1,3 @@
-* {
-    margin 0;
-    padding 0;
-
-}
-
-.imglogo {
-    display: flex;
-    align-items: center;
-}
-
-/* BODY*/
-.fondo {
-    background-color: white;
-}
-
-/*HEADER*/
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 259px;
-    height: 242px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-}
-
-.navbar {
-    display: inline;
-    text-align: center;
-    font-family: Spinnaker, Arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 0, 1);
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-variant: normal;
-}
-
-.ul {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-}
-
-.enlace {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 30px;
-    text-align: center;
-    color: black;
-    border-radius: 1%;
-}
-
-/*MAIN HTML*/
-.ul1 {
-    display: flex;
-    display: block;
-    align-items: center;
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-}
-
-.inicio {
-    display: inline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.grid-conteiner {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 100%;
-    overflow-x: auto;
-    background-color: #F5F5DC;
-}
-
-.galery-item {
-    position: relative;
-}
-
-.galery-img {
-    width: 500px;
-    height: 300px;
-    object-fit: contain;
-}
-
-.titlegaleria {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background: #333;
-    width: 100%;
-    margin: 0;
-}
-
-.contactoimg {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-.parrafopress{
-    font-size: 15px;
-    font-style: oblique;
-}
-.parrafos {
-    font-size: 15px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-.formulario {
-    color: white;
-    background-color: gray;
-    border: solid 1%;
-}
-
-.formu1 {
-    color: black
-}
-
-.textpres {
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.titleparrafos {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    padding-top: 70px;
-}
-
-/* SECTION*/
-.imginicio {
-    width: 400px;
-    height: 400px;
-    image-resolution: 1920px;
-}
-
-
-/*FOOTER*/
-
-.footers {
-    background-color: white
-}
-
-#h3footer {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-
-}
-
-.porfolioconteiner {
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-}
-
-.afooter {
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-}
-
-.pfoot {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#logoinsta {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    border: 1px;
-    top: 40px;
-    left: 40px;
-}
-
-#logows {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    border: 1px;
-    top: 70px;
-    left: 70px;
-}
-
-h3 {
-    color: black;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.text-conteiner {
-    display: flex;
-    display: block;
-    text-align: center;
-}
-
-.redesfooter {
-    display: flex;
-    display: inline;
-    align-items: center;
-}
-
-
 @media screen and (max-width:600px) {
     .grid-conteiner {
 
@@ -257,11 +12,9 @@ h4 {
             object-fit: contain;
         }
     }
-
     .fondo {
         background-color: white;
     }
-
     .navbar {
         text-align: center;
         padding-left: 5px;
@@ -288,7 +41,6 @@ h4 {
         text-align: center;
         color: black;
     }
-
     .inicio {
         display: inline;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -296,12 +48,10 @@ h4 {
         font-size: 10px;
         text-decoration: none;
     }
-
     a {
         width: 100px;
         height: 40px;
     }
-
     .afooter {
         display: flex;
         justify-content: center;
@@ -319,7 +69,6 @@ h4 {
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
     .logo {
         display: flex;
         width: 300px;
@@ -332,7 +81,6 @@ h4 {
     .fondo {
         background-color: gray;
     }
-
     .pfoot {
         font-size: 10px;
         text-align: center;
@@ -353,8 +101,7 @@ h4 {
         height: 258px;
         object-fit: contain;
     }
-
-
+    
     #h3footer {
         display: flex;
         justify-content: center;
@@ -366,7 +113,6 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
-
     h3 {
         text-align: center;
         color: black;
@@ -386,7 +132,6 @@ h4 {
         display: inline;
         align-items: center;
     }
-
     .contactoimg {
         display: flex;
         justify-content: center;
@@ -394,7 +139,6 @@ h4 {
         height: 100%;
     }
 }
-
 
 @media screen and (max-width:320px) {
     .grid-conteiner {
@@ -408,7 +152,6 @@ h4 {
     .fondo {
         background-color: white;
     }
-
     .galery-img {
         width: 300px;
         height: 200px;
@@ -427,7 +170,6 @@ h4 {
         font-size: 10px;
 
     }
-
     .porfolioconteiner {
         display: flex;
         justify-content: space-around;
@@ -439,7 +181,6 @@ h4 {
         height: 40px;
 
     }
-
     .afooter {
         display: flex;
         justify-content: center;
@@ -456,7 +197,6 @@ h4 {
         font-size: 5px;
         text-align: center;
     }
-
     h2 {
         font-size: 15px;
         text-align: center;
@@ -473,7 +213,6 @@ h4 {
         margin-bottom: 12px;
         padding-left: 18px
     }
-
     .redesfooter {
         display: flex;
         display: inline;
@@ -497,7 +236,6 @@ h4 {
         font-variant: normal;
         overflow: hidden;
     }
-
     .contactoimg {
         width: 100%;
     }
@@ -518,7 +256,6 @@ h4 {
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
     .imglogo {
         display: flex;
         align-items: center;
