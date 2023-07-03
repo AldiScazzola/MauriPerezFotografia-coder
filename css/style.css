@@ -2,56 +2,19 @@
     margin 0;
     padding 0;
 
-
 }
 
-/*ETIQUETAS*/
-header {
+.imglogo {
+    display: flex;
+    align-items: center;
+}
+
+/* BODY*/
+.fondo {
     background-color: white;
 }
 
-a {
-   
-    width: 100px;
-    height: 100px;
-    
-}
-
-h1 {
-    padding-top: 70px;
-}
-
-
-h3 {
-    color: black;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h5 {
-    padding-left: 1000px;
-    color: white;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-p {
-    color: black;
-    font-size: 15px;
-}
-
-/*CLASES*/
+/*HEADER*/
 .logo {
     display: flex;
     justify-content: center;
@@ -59,12 +22,7 @@ p {
     height: 242px;
     padding-top: 20px;
     padding-bottom: 10px;
-    
-}
 
-.imglogo {
-    display: flex;
-    align-items: center;
 }
 
 .navbar {
@@ -79,6 +37,16 @@ p {
     font-variant: normal;
 }
 
+.ul {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
 .enlace {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -89,6 +57,55 @@ p {
     border-radius: 1%;
 }
 
+/*MAIN HTML*/
+.ul1 {
+    display: flex;
+    display: block;
+    align-items: center;
+    list-style: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.inicio {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    overflow-x: auto;
+    background-color: #F5F5DC;
+}
+
+.galery-item {
+    position: relative;
+}
+
+.galery-img {
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.titlegaleria {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #333;
+    width: 100%;
+    margin: 0;
+}
+
 .contactoimg {
     display: flex;
     justify-content: center;
@@ -96,95 +113,11 @@ p {
     height: 100%;
 }
 
-.imginicio {
-    width: 400px;
-    height: 400px;
-    image-resolution: 1920px;
-}
-
-.imgprod {
-    width: 400px;
-    height: 400px;
-    image-resolution: 1920px;
-}
-
-.liprecios {
-    padding-bottom: 30px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.textfotos {
-    color: blueviolet;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-.footers {
-    background-color: white
-}
-
-.pfoot {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+.parrafos {
+    font-size: 15px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.text-conteiner {
-    display: flex;
-    display: block;
     text-align: center;
-}
-
-.titleparrafos {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.textpres {
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.li {
-    padding-bottom: 30px;
-    font-size: 20px;
-}
-
-.ul {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-}
-.ul1{
-    display: flex;
-   display: block;
-    align-items: center;
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-}
-
-.ulinicio {
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-
-.titulocontacto {
-    color: white;
 }
 
 .formulario {
@@ -197,25 +130,50 @@ p {
     color: black
 }
 
-
-
-.fondo {
-    background-color: white;
-}
-
-.inicio {
-    display: inline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-}
-.parrafos {
-    font-size: 15px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.textpres {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.titleparrafos {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-top: 70px;
+}
+
+/* SECTION*/
+.imginicio {
+    width: 400px;
+    height: 400px;
+    image-resolution: 1920px;
+}
+
+
+/*FOOTER*/
+
+.footers {
+    background-color: white
+}
+
+#h3footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.porfolioconteiner {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
 .afooter {
     display: flex;
     justify-content: center;
@@ -224,7 +182,14 @@ p {
     font-size: 20px;
 }
 
-/****ID****/
+.pfoot {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #logoinsta {
     width: 40px;
     height: 40px;
@@ -245,83 +210,27 @@ p {
     left: 70px;
 }
 
-#quinces {
-    font-size: 10px;
-    color: blueviolet;
-}
-
-#sesiones {
-    font-size: 10px;
-}
-
-#Bodas {
-    font-size: 10px;
-}
-
-#parrafos {
-    font-size: 20px;
+h3 {
     color: black;
+    padding-left: 5px;
+    padding-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
     text-align: center;
 }
 
-
-
-#primerh3 {
-    padding-top: 60px;
-}
-
-#footer {
-    font-size: 20px;
+h4 {
     text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#main {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-#h3footer {
+.text-conteiner {
     display: flex;
-    justify-content: center;
-    font-size: 20px;
-  
-}
-.porfolioconteiner {
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-}
-
-/* GRID*/
-.grid-conteiner {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 100%;
-    overflow-x: auto;
-    background-color: #F5F5DC;
-}
-
-.galery-img {
-    width: 500px;
-    height: 300px;
-    object-fit: contain;
-}
-
-.titlegaleria {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background: #333;
-    width: 100%;
-    margin: 0;
-}
-
-.galery-item {
-    position: relative;
+    display: block;
+    text-align: center;
 }
 
 .redesfooter {
@@ -330,7 +239,6 @@ p {
     align-items: center;
 }
 
-/* RESPONSIVE PRECIO*/
 
 @media screen and (max-width:600px) {
     .grid-conteiner {
@@ -347,7 +255,7 @@ p {
         }
     }
 
-    header {
+    .fondo {
         background-color: white;
     }
 
@@ -387,12 +295,13 @@ p {
     }
 
     a {
-       
+
         width: 100px;
         height: 40px;
-       
-        
+
+
     }
+
     .afooter {
         display: flex;
         justify-content: center;
@@ -450,10 +359,9 @@ p {
         display: flex;
         justify-content: center;
         font-size: 10px;
-      
+
     }
 
-    
     .porfolioconteiner {
         display: flex;
         justify-content: space-around;
@@ -487,6 +395,7 @@ p {
     }
 }
 
+
 @media screen and (max-width:320px) {
     .grid-conteiner {
 
@@ -496,7 +405,7 @@ p {
         overflow-x: auto;
     }
 
-    header {
+    .fondo {
         background-color: white;
     }
 
@@ -516,18 +425,21 @@ p {
         display: flex;
         justify-content: center;
         font-size: 10px;
-      
+
     }
+
     .porfolioconteiner {
         display: flex;
         justify-content: space-around;
     }
+
     a {
-        
+
         width: 100px;
         height: 40px;
-        
+
     }
+
     .afooter {
         display: flex;
         justify-content: center;
@@ -586,16 +498,6 @@ p {
         overflow: hidden;
     }
 
-    /* RESPONSIVE CONTACTO*/
-    #parrafos {
-        font-size: 10px;
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        font-style: oblique;
-        padding-bottom: 24px;
-    }
-
     .contactoimg {
         width: 100%;
     }
@@ -616,9 +518,10 @@ p {
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     .imglogo {
         display: flex;
         align-items: center;
-        justify-content: center 
+        justify-content: center
     }
-       
+}
