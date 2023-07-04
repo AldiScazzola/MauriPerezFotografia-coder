@@ -1,9 +1,10 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "./abstracts";
- *   |         ^^^^^^^^^^^^^
- *   '
- *   style\scss\main.scss 2:9  root stylesheet */
+/* Error: expected ";".
+ *     ,
+ * 138 |         padding-top: 20px;
+ *     |                    ^
+ *     '
+ *   style\scss\layout\_footer.scss 138:20  @import
+ *   style\scss\main.scss 16:8              root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"./abstracts\";\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   style\\scss\\main.scss 2:9  root stylesheet";
+  content: 'Error: expected ";".\a     \2577 \a 138 \2502          padding-top: 20px;\d\a     \2502                     ^\a     \2575 \a   style\\scss\\layout\\_footer.scss 138:20  @import\a   style\\scss\\main.scss 16:8              root stylesheet';
 }

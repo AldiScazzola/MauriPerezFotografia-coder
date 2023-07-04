@@ -1,11 +1,14 @@
+//MEDIA
+@import"./media-Q/mixins";
+
 //ABSTRACTS
-@import "./abstracts";
+@import "./abstracts/variables";
 
 //BASE
 @import"./base/reset";
 
 //LAYOUT
-@import"./components/imput";
+@import"./components/input";
 @import"./layout/grid";
 @import"./layout/header";
 @import"./layout/nav";
@@ -15,6 +18,6 @@
 //PAGES
 @import"./pages/home";
 
-//MEDIA
-@import"./layout/media";
+
+
 

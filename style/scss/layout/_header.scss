@@ -4,6 +4,11 @@
 .imglogo {
     display: flex;
     align-items: center;
+    @include mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
     .logo {
         display: flex;
         justify-content: center;
@@ -11,6 +16,14 @@
         height: 242px;
         padding-top: 20px;
         padding-bottom: 10px;
+        @include tablet {
+            display: flex;
+            width: 300px;
+            height: 300px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            align-items: center;
+        }
     
     }
 }
