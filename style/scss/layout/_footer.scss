@@ -1,8 +1,8 @@
 .footers {
-    background-color: white
+    background-color: white;
 }
 
-#h3footer {
+#h1footer {
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -19,8 +19,79 @@
         justify-content: center;
         font-size: 10px;
     }
+}
+h1 {
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    @include tablet{
+        color: black;
+        padding-left: 5px;
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    @include mobile {
+        color: black;
+        padding-left: 5px;
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+}
 
-
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+    @include tablet {
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 5px;
+    }
+    @include mobile {
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 5px;
+    }
+}
+h3{
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    @include tablet {
+        color: black;
+        padding-left: 5px;
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+    @include mobile {
+        color: black;
+        padding-left: 5px;
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5px;
+        text-align: center;
+    }
 }
 
 .porfolioconteiner {
@@ -37,32 +108,48 @@
         display: flex;
         justify-content: space-around;
     }
-
-    .afooter {
-        display: flex;
-        justify-content: center;
-        width: 100px;
-        height: 40px;
-        font-size: 20px;
-
-        @include tablet {
-            display: flex;
-            justify-content: center;
-            width: 100px;
-            height: 40px;
-            font-size: 15px;
-        }
-
-        @include mobile {
-            display: flex;
-            justify-content: center;
-            width: 100px;
-            height: 40px;
-            font-size: 15px;
-        }
-
+    .btn {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba (255,255,255,0,3);
+        text-shadow: 0 1px 1px rgba (0, 0, 0, 0,3);
+        @include tablet{
+            border-radius: 3px; 
+            display: inline-block;
+            padding: 4px,16px,0px,10px;
+            text-decoration: none;  
+            text-shadow: 0 1px 0 rgba (255,255,255,0,3);
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0,3);
+            text-align: center;     
+         }
+         @include mobile {
+            border-radius: 3px; 
+            display: inline-block;
+            padding: 10px 3px;
+            text-decoration: none;  
+            text-shadow: 0 1px 0 rgba (255,255,255,0,3);
+            text-shadow: 0 1px 1px rgba (0, 0, 0, 0,3);
+            text-align: center;  
+         }
     }
-}
+
+
+        
+        .btn-beige{
+        color: white;
+        background-color:rgba (184,152,111,.72) ;
+        }
+        .btn-beige:hover{
+            background-color: #a58863;
+        }
+        .btn-beige:active{
+            background-color: #846c4f;
+        }
+
+  
+
 
 .pfoot {
     text-align: center;
@@ -111,77 +198,7 @@
     }
 }
 
-h2 {
-    font-size: 20px;
-    text-align: center;
-
-    @include tablet {
-        font-size: 15px;
-        text-align: center;
-    }
-}
-
-
-
-h3 {
-    color: black;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    text-align: center;
-
-    @include tablet {
-        text-align: center;
-        color: black;
-        padding-left: 200px 
-        padding-top: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-
-    @include mobile {
-        text-align: center;
-        color: black;
-        padding-left: 200px padding-top: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 5px;
-        text-align: center;
-    }
-
-}
-
-//BODAS
-h4 {
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    @include tablet {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    @include mobile {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-}
-
-
-
-
-
-.text-conteiner {
+   .text-conteiner {
     display: flex;
     display: block;
     text-align: center;
@@ -214,27 +231,17 @@ h4 {
 
     a {
         width: 100px;
-        height: 40px;
-    }
+        height: 60px;
 
-
-    #logoinsta {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        border: 1px;
-        top: 40px;
-        left: 40px;
-    }
-
-    #logows {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        border: 1px;
-        top: 70px;
-        left: 70px;
+        @include tablet{
+            width: 57px;
+            height: 18px;
+        }
+        }
+        @include mobile {
+            width: 57px;
+            height: 18px;
+        }
+        }
     }
 }

@@ -9,8 +9,65 @@
 }
 
 /* BODY*/
-.fondo {
-    background-color: white;
+.fondoquinces {
+
+    background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+
+}
+
+.parrafoquinces {
+    margin-bottom: 30px;
+}
+
+.cards {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    height: 600px;
+
+
+}
+
+.cards .card-quinces {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0, 2px 2px, rgba(0, 0, 0, 0, 2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+.cards .card-quinces:hover {
+    transform: translateY(-15px);
+    box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);
+}
+
+.cards .card-quinces .cardimg {
+    width: 330px;
+    height: 220px;
+}
+
+.cards .card-quinces h4 {
+    font-weight: 600;
+}
+
+.cards .card-quinces p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cards .card-quinces a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #990099;
 }
 
 /*HEADER*/
@@ -57,6 +114,7 @@
 }
 
 /*MAIN HTML*/
+
 .ul1 {
     display: flex;
     display: block;
@@ -110,11 +168,24 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
 .parrafopress {
-    font-size: 15px;
-    font-style: oblique;
+    font-size: 25px;
+    font-style: initial;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.parrafopress1 {
+    font-size: 25px;
+    font-style: initial;
+    text-align: center;
+    padding-bottom: 10px;
+
 }
 
 .parrafos {
@@ -142,30 +213,46 @@
     padding-bottom: 50px;
 }
 
+.presupuesto-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .titleparrafos {
+    text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    padding-top: 70px;
+.fotoconteiner {
+    display: flex;
+    display: block;
+    width: 623px;
+    height: 475px;
 }
 
-/* SECTION*/
+
+.index-conteinter {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+}
+
 .imginicio {
     width: 400px;
     height: 400px;
     image-resolution: 1920px;
 }
 
-
-/*FOOTER*/
-
 .footers {
-    background-color: white
+    background-color: #474244;
 }
 
-#h3footer {
+#h1footer {
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -178,12 +265,32 @@ h1 {
     font-size: 15px;
 }
 
-.afooter {
+.div {
     display: flex;
     justify-content: center;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
+
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba (255, 255, 255, 0, 3);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0, 3);
+}
+
+.btn-beige {
+    color: white;
+    background-color: rgba(184, 152, 111, .72);
+}
+
+.btn-beige:hover {
+    background-color: #a58863;
+}
+
+.btn-beige:active {
+    background-color: #846c4f;
 }
 
 .pfoot {
@@ -214,23 +321,6 @@ h1 {
     left: 70px;
 }
 
-h3 {
-    color: black;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .text-conteiner {
     display: flex;
     display: block;
@@ -244,9 +334,36 @@ h4 {
 }
 
 
+h1 {
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width:600px) {
 
-    /* YA ESTA */
     .grid-conteiner {
 
         grid-template-columns: repeat(2, 1fr);
@@ -254,7 +371,6 @@ h4 {
         width: 100%;
         overflow-x: auto;
 
-        /* YA ESTA*/
         .galery-img {
             width: 300px;
             height: 200px;
@@ -262,8 +378,6 @@ h4 {
         }
     }
 
-
-    /* YA ESTA*/
     .navbar {
         text-align: center;
         padding-left: 5px;
@@ -282,7 +396,6 @@ h4 {
         overflow: hidden;
     }
 
-    /* YA ESTA */
     .enlace {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
@@ -292,7 +405,6 @@ h4 {
         color: black;
     }
 
-    /* YA ESTA*/
     .inicio {
         display: inline;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -302,115 +414,173 @@ h4 {
     }
 
     a {
-        width: 100px;
-        height: 40px;
-    }
-
-    /* YA ESTA*/
-    .afooter {
-        display: flex;
-        justify-content: center;
-        width: 100px;
-        height: 40px;
-        font-size: 15px;
-    }
-
-    /* YA ESTA*/
-    .ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        list-style: none;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    /* YA ESTA*/
-    .logo {
-        display: flex;
-        width: 300px;
-        height: 300px;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        align-items: center;
-    }
-
-
-    /*YA ESTA*/
-    .pfoot {
-        font-size: 10px;
-        text-align: center;
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    /*YA ESTA*/
-    h4 {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    /* YA ESTA*/
-    .imginicio {
-        width: 640px;
-        height: 258px;
-        object-fit: contain;
-    }
-
-    /*YA ESTA*/
-    #h3footer {
-        display: flex;
-        justify-content: center;
-        font-size: 10px;
-
-    }
-
-    /*YA ESTA */
-    .porfolioconteiner {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    /*YA ESTA*/
-    h3 {
-        text-align: center;
-        color: black;
-        padding-left: 200px padding-top: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-
-    /*YA ESTA*/
-    h2 {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    /* YA ESTA*/
-    .redesfooter {
-        display: flex;
-        display: inline;
-        align-items: center;
-    }
-
-    /*YA ESTA*/
-    .contactoimg {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
+        width: 57px;
+        height: 18px;
     }
 }
 
 
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    display: flex;
+    width: 318px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+.cards {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    height: 1500px;
+}
+
+
+.pfoot {
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: black;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.imginicio {
+    width: 640px;
+    height: 258px;
+    object-fit: contain;
+}
+
+.index-conteinter {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+}
+
+#h1footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.porfolioconteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px, 16px, 0px, 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba (255, 255, 255, 0, 3);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0, 3);
+    text-align: center;
+}
+
+
+.redesfooter {
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+.contactoimg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.textpres {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parrafopress1 {
+    font-size: 20px;
+    font-style: initial;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fotoconteiner {
+    display: flex;
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+.presupuesto-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width:320px) {
 
-    /* YA ESTA*/
     .grid-conteiner {
 
         grid-template-columns: repeat(1, 1fr);
@@ -423,79 +593,97 @@ h4 {
         background-color: white;
     }
 
-    /* YA ESTA */
+
     .galery-img {
         width: 300px;
         height: 200px;
         object-fit: contain;
     }
 
-    /*YA ESTA*/
     .imginicio {
         width: 300px;
         height: 160px;
         object-fit: contain;
     }
 
-    /*YA ESTA */
-    #h3footer {
+    .textpres {
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .index-conteinter {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding-top: 30px;
+        padding-bottom: 45px;
+
+    }
+
+    #h1footer {
         display: flex;
         justify-content: center;
         font-size: 10px;
 
     }
 
-    /*YA ESTA */
     .porfolioconteiner {
         display: flex;
         justify-content: space-around;
     }
 
-    /*YA ESTA*/
     a {
 
-        width: 100px;
-        height: 40px;
-
+        width: 57px;
+        height: 18px;
     }
 
-    /* YA ESTA */
-    .afooter {
-        display: flex;
-        justify-content: center;
-        width: 100px;
-        height: 40px;
-        font-size: 15px;
-    }
-
-    /*YA ESTA*/
-    h3 {
+    .btn {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 10px 3px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba (255, 255, 255, 0, 3);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0, 3);
         text-align: center;
+    }
+
+    h1 {
         color: black;
-        padding-left: 200px padding-top: 20px;
+        padding-left: 5px;
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 5px;
+    }
+
+    h3 {
+        color: black;
+        padding-left: 5px;
+        padding-top: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 5px;
         text-align: center;
     }
-/*YA ESTA*/
-    h2 {
-        font-size: 15px;
-        text-align: center;
-    }
-/*YA ESTA*/
-    h4 {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-/*YA ESTA*/
+
+
     #logows {
         width: 20px;
         height: 24px;
     }
-/*YA ESTA*/
+
     #logoinsta {
         width: 20px;
         height: 21px;
@@ -503,14 +691,14 @@ h4 {
         padding-left: 18px
     }
 
-    /* YA ESTA*/
+
     .redesfooter {
         display: flex;
         display: inline;
         align-items: center;
     }
 
-    /* YA ESTA*/
+
     .navbar {
         text-align: center;
         padding-left: 5px;
@@ -529,13 +717,15 @@ h4 {
         overflow: hidden;
     }
 
-    /*YA ESTA*/
+
     .contactoimg {
         width: 100%;
+        padding-bottom: 30px;
+        padding-top: 20px;
     }
 
 
-    /*YA ESTA */
+
     .ul {
         display: flex;
         flex-direction: column;
@@ -545,10 +735,34 @@ h4 {
         padding-right: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-/*YA ESTA*/
+
     .imglogo {
         display: flex;
         align-items: center;
         justify-content: center
     }
-}
+
+    .cards {
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        height: 1500px;
+    }
+
+    .parrafopress1 {
+        font-size: 15px;
+        font-style: initial;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    .presupuesto-conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }

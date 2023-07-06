@@ -1,5 +1,5 @@
-.fondo {
-    background-color: white;
+.fondoquinces {
+    background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
 }
 .imglogo {
     display: flex;
@@ -7,14 +7,14 @@
     @include mobile {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
     .logo {
         display: flex;
         justify-content: center;
         width: 259px;
         height: 242px;
-        padding-top: 20px;
+        padding-top:  20px;
         padding-bottom: 10px;
         @include tablet {
             display: flex;
