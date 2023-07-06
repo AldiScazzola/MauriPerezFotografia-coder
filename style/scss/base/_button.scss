@@ -6,4 +6,18 @@
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(255,255,255,3);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 3);
+    .btn-beige {
+        color: white;
+        background-color: rgba(184, 152, 111, .72);
     }
+    
+    .btn-beige:hover {
+        background-color: #a58863;
+    }
+    
+    .btn-beige:active {
+        background-color: #846c4f;
+    }
+}
+   
+   

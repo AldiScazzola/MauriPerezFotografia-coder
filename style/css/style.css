@@ -1,13 +1,13 @@
 /* Error: Only 4 arguments allowed, but 5 were passed.
  *   ,--> style\scss\layout\_main.scss
- * 190|             box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);
+ * 191|             box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);
  *   |                                     ^^^^^^^^^^^^^^^^^^^ invocation
  *   '
  *   ,
  * 1 | @function rgba($red, $green, $blue, $alpha) {
  *   |           ================================= declaration
  *   '
- *   style\scss\layout\_main.scss 190:37  @import
+ *   style\scss\layout\_main.scss 191:37  @import
  *   style\scss\main.scss 17:8            root stylesheet */
 
 body::before {
@@ -18,5 +18,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Only 4 arguments allowed, but 5 were passed.\a   \250c \2500 \2500 > style\\scss\\layout\\_main.scss\a 190\2502              box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);\d\a   \2502                                      ^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \2577 \a 1 \2502  @function rgba($red, $green, $blue, $alpha) {\a   \2502            \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   style\\scss\\layout\\_main.scss 190:37  @import\a   style\\scss\\main.scss 17:8            root stylesheet";
+  content: "Error: Only 4 arguments allowed, but 5 were passed.\a   \250c \2500 \2500 > style\\scss\\layout\\_main.scss\a 191\2502              box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);\d\a   \2502                                      ^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \2577 \a 1 \2502  @function rgba($red, $green, $blue, $alpha) {\a   \2502            \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   style\\scss\\layout\\_main.scss 191:37  @import\a   style\\scss\\main.scss 17:8            root stylesheet";
 }
