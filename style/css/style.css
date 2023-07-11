@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/*boton*/
+
 .btn {
   border-radius: 3px;
   display: inline-block;
@@ -43,7 +43,7 @@
 .btn .btn .btn-beige:active {
   background-color: #343a40;
 }
-/*formulario*/
+
 .formulario {
   color: white;
   background-color: gray;
@@ -60,7 +60,7 @@ header {
 .fondoquinces {
   background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
 }
-/*logo*/
+
 .imglogo {
   display: flex;
   align-items: center;
@@ -72,8 +72,13 @@ header {
     justify-content: center;
   }
 }
+@media screen and (max-width: 600px) {
+  .imglogo {
+    display: flex;
+    align-items: center;
+  }
+}
 .imglogo .logo {
-  display: flex;
   width: 259px;
   height: 242px;
   padding-top: 20px;
@@ -90,8 +95,38 @@ header {
     align-items: center;
   }
 }
+@media screen and (max-width: 320px) {
+  .imglogo .logo {
+    display: flex;
+    width: 259px;
+    height: 242px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+}
 
-
+.ul {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  list-style: none;
+  padding-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
 @media screen and (max-width: 320px) {
   .ul {
     display: flex;
@@ -103,7 +138,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
-/*grid*/
+
 .grid-conteiner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -142,8 +177,8 @@ header {
   margin: 0;
 }
 .grid-conteiner .galery-item .galery-img {
-  width: 500px;
-  height: 300px;
+  width: 329px;
+  height: 232px;
   object-fit: contain;
 }
 @media screen and (max-width: 600px) {
@@ -160,7 +195,7 @@ header {
     object-fit: contain;
   }
 }
-/* navbar*/
+
 .ul {
   display: flex;
   flex-direction: row-reverse;
@@ -169,18 +204,6 @@ header {
   padding-left: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
-}
-@media screen and (max-width: 600px) {
-  .ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    justify-content: center;
-    list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 }
 .ul .navbar {
   display: inline;
@@ -250,7 +273,7 @@ header {
     color: black;
   }
 }
-/*fotos home*/
+
 .index-conteinter {
   display: flex;
   flex-wrap: nowrap;
@@ -276,27 +299,34 @@ header {
     padding-bottom: 45px;
   }
 }
-.index-conteinter .imginicio {
-  width: 400px;
-  height: 400px;
-  image-resolution: 1920px;
+
+.ul {
+  display: flex;
+  display: block;
+  align-items: center;
+  list-style: none;
+  padding-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.inicio {
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
 }
 @media screen and (max-width: 600px) {
-  .index-conteinter .imginicio {
-    width: 640px;
-    height: 258px;
-    object-fit: contain;
-  }
-}
-@media screen and (max-width: 320px) {
-  .index-conteinter .imginicio {
-    width: 300px;
-    height: 160px;
-    object-fit: contain;
+  .inicio {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
   }
 }
 
-/*foto contacto*/
 .contactoimg {
   display: flex;
   justify-content: center;
@@ -322,7 +352,7 @@ header {
     padding-top: 20px;
   }
 }
-/*pag presupuesto*/
+
 .presupuesto-conteiner {
   display: flex;
   flex-direction: column;
@@ -342,7 +372,7 @@ header {
     align-items: center;
   }
 }
-/*presentacion/contacto*/
+
 .parrafopress {
   font-size: 15px;
   font-style: oblique;
@@ -375,7 +405,16 @@ header {
   text-align: center;
 }
 
-/* presentacion/presupuestos*/
+.formulario {
+  color: white;
+  background-color: gray;
+  border: solid 1%;
+}
+
+.formu1 {
+  color: black;
+}
+
 .textpres {
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -406,6 +445,7 @@ header {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .fotoconteiner {
   display: flex;
   display: block;
@@ -416,10 +456,40 @@ header {
     height: 506px;
   }
 }
+
+h1 {
+  padding-top: 70px;
+}
+
 section {
   display: block;
 }
-/*footer*/
+
+.imginicio {
+  width: 400px;
+  height: 400px;
+  image-resolution: 1920px;
+}
+@media screen and (max-width: 600px) {
+  .imginicio {
+    width: 640px;
+    height: 258px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 320px) {
+  .imginicio {
+    width: 300px;
+    height: 160px;
+    object-fit: contain;
+  }
+}
+
+.img15 {
+  width: 400px;
+  height: 400px;
+}
+
 .footers {
   background-color: #adb5bd;
   color: white;
