@@ -1,23 +1,41 @@
-
 .btn {
     border-radius: 3px;
     display: inline-block;
     padding: 20px 15px;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,3);
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 3);
-    .btn-beige {
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+
+    @include tablet {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 4px, 16px, 0px, 10px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgb(255, 255, 255);
+        text-shadow: 0 1px 1px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    @include mobile {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 10px 3px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba(255, 255, 255);
+        text-shadow: 0 1px 1px rgba(0, 0, 0);
+        text-align: center;
+    }
+
+    .btn .btn-beige {
         color: white;
-        background-color: rgba(184, 152, 111, .72);
+        background-color: #495057;
     }
-    
-    .btn-beige:hover {
-        background-color: #a58863;
+
+    .btn .btn-beige:hover {
+        background-color: #ced4da;
     }
-    
-    .btn-beige:active {
-        background-color: #846c4f;
+
+    .btn .btn-beige:active {
+        background-color: #343a40;
     }
 }
-   
-   

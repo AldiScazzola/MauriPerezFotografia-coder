@@ -1,29 +1,67 @@
+header{
+    background-color: white;
+}
 .fondoquinces {
     background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
 }
+
 .imglogo {
     display: flex;
     align-items: center;
     @include mobile {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center
     }
+
     .logo {
+      
         display: flex;
-        justify-content: center;
         width: 259px;
         height: 242px;
-        padding-top:  20px;
+        padding-top: 20px;
         padding-bottom: 10px;
+        align-items: center;
+
         @include tablet {
+
             display: flex;
-            width: 300px;
-            height: 300px;
+            width: 259px;
+            height: 242px;
             padding-top: 20px;
             padding-bottom: 10px;
             align-items: center;
         }
-    
+
+
     }
 }
+.ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        justify-content: center;
+        list-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+       @include mobile {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+}
+
