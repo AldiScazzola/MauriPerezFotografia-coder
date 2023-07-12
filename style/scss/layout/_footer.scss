@@ -138,6 +138,12 @@ h3 {
     }
 }
 
+.div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly
+}
+
 #logoinsta {
     width: 40px;
     height: 40px;

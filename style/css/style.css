@@ -53,90 +53,67 @@
   color: black;
 }
 
-header {
-  background-color: white;
+body {
+  font-family: "calibri";
 }
 
-.fondoquinces {
-  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+header {
+  background-color: #1b4332;
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .imglogo {
-  display: flex;
-  align-items: center;
+  width: 900px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 320px) {
   .imglogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 600px) {
   .imglogo {
-    display: flex;
-    align-items: center;
+    width: 900px;
+    margin: 0 auto;
   }
 }
 .imglogo .logo {
-  width: 259px;
-  height: 242px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  align-items: center;
+  width: 120px;
+  height: 50px;
+  float: left;
+  padding: 8px;
 }
 @media screen and (max-width: 600px) {
   .imglogo .logo {
-    display: flex;
-    width: 259px;
-    height: 242px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    align-items: center;
+    width: 120px;
   }
 }
 @media screen and (max-width: 320px) {
   .imglogo .logo {
-    display: flex;
-    width: 259px;
-    height: 242px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    align-items: center;
+    width: 120px;
   }
 }
 
-.ul {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+nav {
+  float: right;
+}
+
+nav ul li {
   list-style: none;
-  padding-left: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  margin-left: 25px;
+  padding: 25px 0;
+  float: left;
+  position: relative;
 }
-@media screen and (max-width: 600px) {
-  .ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    justify-content: center;
-    list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-}
-@media screen and (max-width: 320px) {
-  .ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .grid-conteiner {
@@ -177,14 +154,14 @@ header {
   margin: 0;
 }
 .grid-conteiner .galery-item .galery-img {
-  width: 329px;
-  height: 232px;
+  width: 408px;
+  height: 264px;
   object-fit: contain;
 }
 @media screen and (max-width: 600px) {
   .grid-conteiner .galery-item .galery-img {
-    width: 300px;
-    height: 200px;
+    width: 329px;
+    height: 232px;
     object-fit: contain;
   }
 }
@@ -206,6 +183,7 @@ header {
   font-size: 30px;
 }
 .ul .navbar {
+  background-color: lightgray;
   display: inline;
   text-align: center;
   font-family: Spinnaker, Arial, Helvetica, sans-serif;
@@ -645,6 +623,12 @@ h3 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+}
+
+.div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
 }
 
 #logoinsta {
