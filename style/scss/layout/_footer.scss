@@ -6,48 +6,10 @@
 #h1footer {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 
-    @include tablet {
-        display: flex;
-        justify-content: center;
-        font-size: 15px;
-        color: white;
-    }
-    @include mobile {
-        display: flex;
-        justify-content: center;
-        font-size: 15px;
-        color: white;
-    }
-}
-
-h1 {
-    color: black;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    text-align: center;
-
-    @include tablet {
-        color: black;
-        padding-left: 5px;
-        padding-top: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-        text-align: center;
-    }
-    @include mobile {
-        color: black;
-        padding-left: 5px;
-        padding-top: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-
+  
 }
 
 h2 {
@@ -57,22 +19,9 @@ h2 {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 5px;
+    margin-top: 60px;
 
-    @include tablet {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    @include mobile {
-        text-align: center;
-        text-decoration: underline;
-        color: black;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding-bottom: 5px;
-    }
+   
 }
 
 h3 {
@@ -83,59 +32,27 @@ h3 {
     font-size: 10px;
     text-align: center;
 
-    @include tablet {
-        color: black;
-        padding-left: 5px;
-        padding-top: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-    @include mobile {
-        color: black;
-        padding-left: 5px;
-        padding-top: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 5px;
-        text-align: center;
-    }
+   
 }
 
 .porfolioconteiner {
     display: flex;
     justify-content: space-around;
     font-size: 15px;
+    margin-bottom: 41px;
 
-    @include tablet {
-        display: flex;
-        justify-content: space-around;
-    }
-    @include mobile {
-        display: flex;
-        justify-content: space-around;
-    }
+
 }
 
 .pfoot {
     font-size: 15px;
     text-align: center;
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    @include tablet {
-        font-size: 10px;
-        text-align: center;
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    @include mobile {
-        font-size: 10px;
-        text-align: center;
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+   
 }
 
 .div {
@@ -152,12 +69,7 @@ h3 {
     border: 1px;
     top: 40px;
     left: 40px;
-    @include mobile {
-        width: 20px;
-        height: 21px;
-        margin-bottom: 12px;
-        padding-left: 18px
-    }
+   
 
 
 }
@@ -170,10 +82,7 @@ h3 {
     border: 1px;
     top: 70px;
     left: 70px;
-    @include mobile {
-        width: 20px;
-        height: 24px;
-    }
+   
 
 }
 
@@ -182,27 +91,10 @@ h3 {
     display: inline;
     align-items: center;
 
-    @include tablet {
-        display: flex;
-        display: inline;
-        align-items: center;
-    }
-    @include mobile {
-        display: flex;
-        display: inline;
-        align-items: center;
-    }
-
     a {
-        width: 15px;
-        height: 60px;
-        @include tablet {
-            width: 57px;
-            height: 18px;
-        }
-        @include mobile {
-            width: 57px;
-            height: 18px;
-        }
+        font-size: 40px;
+        width: 65px;
+        text-decoration: none;
+       
     }
 }

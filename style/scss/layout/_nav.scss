@@ -1,79 +1,8 @@
-.ul{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    list-style: none;
-    padding-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-   
-   
-    .navbar {
-        background-color: lightgray;
-        display: inline;
-        text-align: center;
-        font-family: Spinnaker, Arial, Helvetica, sans-serif;
-        color: rgba(0, 0, 0, 1);
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-variant: normal;
-        @include tablet {
-            text-align: center;
-            padding-left: 5px;
-            display: block;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size: 5px;
-            text-align: center;
-            font-family: Spinnaker, Arial, Helvetica, sans-serif;
-            color: rgba(0, 0, 0, 1);
-            font-weight: normal;
-            font-style: normal;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-variant: normal;
-            overflow: hidden;
-        }
-        @include mobile {
-        text-align: center;
-        padding-left: 5px;
-        display: block;
-        padding-top: 6px;
-        padding-bottom: 10px;
-        font-size: 10px;
-        text-align: center;
-        font-family: Spinnaker, Arial, Helvetica, sans-serif;
-        color: rgba(0, 0, 0, 1);
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-variant: normal;
-        overflow: hidden;
-        }
+
+      
 
        
 
-        .enlace {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 20px;
-            text-decoration: none;
-            margin: 30px;
-            text-align: center;
-            color: black;
-            border-radius: 1%;
-            @include tablet {
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
-                text-decoration: none;
-                margin: 5px;
-                text-align: center;
-                color: black;
-            }
+        
 
-           
-        }
-    }
-}
+    

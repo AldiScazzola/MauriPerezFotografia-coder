@@ -9,6 +9,7 @@
     content="Bodas,Boda,quinceañeras,HTML, ASP, JS, META">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="../style/css/style.css">
   <link rel="shortcut icon" href="../img/logo mas pequeño.png" type="image/x-icon" />
   <title>Mauri Perez Fotografia Bodas-Quinces-Sesiones</title>
@@ -18,7 +19,7 @@
   <header>
 
     <div class="imglogo">
-      <a href="#"></a>
+      <a href="../index.html"></a>
       <img class="logo" src="../img/logotipo web  (3) (1).png" alt="logo mauri">
 
 
@@ -38,46 +39,43 @@
   </header>
 
   <main>
-    <h2>Podes elegir entre estas opciones</h2>
-
-    <div class="grid-conteiner">
-      <div class="galery-item">
-        <img src="../img/bodas 3.jpg" alt="evento" class="galery-img" />
-        <h2 class="titlegaleria">Bodas</h2>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-
-      <div class="galery-item">
-        <img src="../img/evento precio 2.jpg" alt="evento" class="galery-img" />
-        <h2 class="titlegaleria">Eventos</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/bodas 3.jpg" class="d-block w-100" alt="bodas">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="../img/15s4.jpg" class="d-block w-100" alt="quinces">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item  ">
+          <img src="../img/sesiones 22.jpg" class="d-block w-100" alt="sesiones">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
       </div>
-      <div class="galery-item">
-        <img src="../img/evento precio 3.jpg" alt="evento" class="galery-img" />
-        <h2 class="titlegaleria">Eventos</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/boda precios 1.jpg" alt="boda" class="galery-img" />
-        <h2 class="titlegaleria">Bodas</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/bodas precios 2.jpg" alt="bodas" class="galery-img" />
-        <h2 class="titlegaleria">Bodas</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/quinces precio 1.jpg" alt="quinces" class="galery-img" />
-        <h2 class="titlegaleria">Quinces</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/quinces precio 1.jpg" alt="quinces" class="galery-img tamanioesp" />
-        <h2 class="titlegaleria">Quinces</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/quinces precio 1.jpg" alt="quinces" class="galery-img tamanioesp" />
-        <h2 class="titlegaleria">Quinces</h2>
-      </div>
-      <div class="galery-item">
-        <img src="../img/quinces precio 1.jpg" alt="quinces" class="galery-img tamanioesp" />
-        <h2 class="titlegaleria">Quinces</h2>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </main>
 
@@ -120,7 +118,7 @@
     <h3>Copyright © 2023 MauriPerezfotografia</h3>
 
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>

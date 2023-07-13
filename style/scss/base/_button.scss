@@ -3,39 +3,25 @@
     display: inline-block;
     padding: 20px 15px;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgb(255, 255, 255);
-    text-shadow: 0 1px 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: #0c2c4d;
+    text-shadow: 0 1px 0 rgba(34, 81, 170, 0.027);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 
-    @include tablet {
-        border-radius: 3px;
-        display: inline-block;
-        padding: 4px, 16px, 0px, 10px;
-        text-decoration: none;
-        text-shadow: 0 1px 0 rgb(255, 255, 255);
-        text-shadow: 0 1px 1px rgb(0, 0, 0);
-        text-align: center;
+
+
+   .btn-beige {
+        color: rgb(53, 92, 197);
+        background-color: white;
     }
 
-    @include mobile {
-        border-radius: 3px;
-        display: inline-block;
-        padding: 10px 3px;
-        text-decoration: none;
-        text-shadow: 0 1px 0 rgba(255, 255, 255);
-        text-shadow: 0 1px 1px rgba(0, 0, 0);
-        text-align: center;
-    }
-
-    .btn .btn-beige {
-        color: white;
-        background-color: #495057;
-    }
-
-    .btn .btn-beige:hover {
+    .btn-beige:hover {
         background-color: #ced4da;
     }
 
-    .btn .btn-beige:active {
-        background-color: #343a40;
+   .btn-beige:active {
+        background-color: #8bbcec;
     }
+
+
 }
