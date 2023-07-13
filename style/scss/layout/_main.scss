@@ -1,34 +1,32 @@
-
-
 .imgpadre{
     display:flex;
     flex-wrap: wrap;
     padding: 5px;
     margin-top: 60px;
-    
-    
 }
+
 .column {
     flex: 25%;
     padding: 5px;
-    
 }
 
- .imginicio {
+.imginicio {
     width:100%;
     margin-top: 5px;
     object-fit: contain;
 }
+
 .p{
     font-size: 25px;
     font-weight: bold;
-    color: gray;
+    color: $color_primario;
     font-family: Calibri, sans-serif;
     text-align: center;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .carousel-inner{
     display: flex;
     justify-content: flex-start;
@@ -37,15 +35,11 @@
     object-fit: contain;
     transition: transform .2s ease-in-out;
 }
-    
-
-
-
 
 .inicio {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: $color_secundario;
     font-size: 15px;
     text-decoration: none;
 
@@ -53,7 +47,7 @@
 
 .contactoimg {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     height: 100%;
     padding-bottom: 30px;
@@ -61,14 +55,12 @@
 
 }
 
-
-
 .presupuesto-conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-  }
+}
 
 .parrafopress {
     font-size: 15px;
@@ -81,20 +73,20 @@
    
 .parrafos {
     font-size: 15px;
-    color: black;
+    color: $color_secundario;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .formulario {
-    color: white;
+    color: $color_bg;
     background-color: gray;
     border: solid 1%;
     margin: 0 auto;
 }
 
 .formu1 {
-    color: black;
+    color: $color_secundario;
     padding: 5px;
 }
 .formulario input{
@@ -106,28 +98,17 @@
     text-align: center;
     padding-top: 156px;
     padding-bottom: 50px;
-
-   
-
-   
-
 }
 
 .titleparrafos {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
 
 .fotoconteiner {
     display: flex;
     display: block;
-
 }
-
-
-
 
 .img15 {
     width: 200px;
