@@ -56,13 +56,13 @@ body {
   left: 0;
   display: flex;
   justify-content: space-around;
-  transition: 0.7s;
+  transition: 0.8s;
   padding: 30px 20px;
   width: 100%;
 }
 
 header.abajo {
-  background-color: #fff;
+  background-color: #f3efef;
   padding: 15px 20px;
 }
 
@@ -76,10 +76,18 @@ header.abajo {
   position: relative;
   text-decoration: none;
   margin: 0 15px;
-  color: black;
-  font-weight: bold;
-  letter-spacing: 2px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 3px;
   transition: 0.7s;
+}
+
+.navindex ul li:hover::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  content: "";
+  background-color: black;
 }
 
 .headerindex ul {
@@ -87,6 +95,7 @@ header.abajo {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
 
 .navindex ul li {
@@ -116,7 +125,7 @@ header {
   left: 0;
   display: flex;
   justify-content: space-around;
-  transition: 0.7s;
+  transition: 0.8s;
   padding: 30px 20px;
   width: 100%;
   z-index: 10;
@@ -143,14 +152,23 @@ nav ul li {
   position: relative;
 }
 
+nav ul li:hover::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  content: "";
+  background-color: black;
+}
+
 nav ul li a {
   position: relative;
   text-decoration: none;
   margin: 0 15px;
   color: black;
-  font-weight: bold;
-  letter-spacing: 2px;
-  transition: 0.7s;
+  font-weight: 700;
+  letter-spacing: 3px;
+  transition: 0.5s;
+  font-size: 20px;
 }
 
 .h1 {
